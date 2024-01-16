@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "Aspekta Thin";
+  src: url("fonts/Aspekta-300.ttf");
+}
+
+@font-face {
+  font-family: "Aspekta Reg";
+  src: url("fonts/Aspekta-400.ttf");
+}
+
+@font-face {
+  font-family: "Aspekta Med";
+  src: url("fonts/Aspekta-500.ttf");
+}
+
+@font-face {
+  font-family: "Aspekta Semi";
+  src: url("fonts/Aspekta-600.ttf");
+}
+
+@font-face {
+  font-family: "Inter Semi";
+  src: url("fonts/Inter-SemiBold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* +++++++++++++++ Common Class +++++++++++++ */
+
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block !important;
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.text-color-1 {
+  color: #A8A49E;
+}
+
+.text-color-2 {
+  color: #f8f8f8;
+}
+
+.text-color-3 {
+  color: #605A59;
+}
+
+.text-color-4 {
+  color: #948F87;
+}
+
+.text-color-5 {
+  color: #6C655A;
+}
+
+.text-color-6 {
+  color: rgba(148, 143, 135, 0.75);
+}
+
+.text-color-7 {
+  color: #7B746A;
+}
+
+.text-color-8 {
+  color: rgba(148, 143, 135, 0.80);
+}
+
+.text-color-9 {
+  color: rgba(248, 248, 248, 0.4);
+}
+
+.bg-color-1 {
+  background-color: #7B746A;
+}
+
+.bg-color-2 {
+  background-color: #6C655A;
+}
+
+.bg-color-3 {
+  background-color: rgba(0, 0, 0, 0.30);
+}
+
+.bg-color-4 {
+  background-color: #68816F;
+}
+
+.bg-color-5 {
+  background-color: #B57878;
+}
+
+.bg-color-6 {
+  background-color: #6F6F9B;
+}
+
+.bg-color-7 {
+  background-color: #819687;
+}
+
+.bg-color-8 {
+  background-color: #C18F8F;
+}
+
+.bg-color-9 {
+  background-color: #8787A9;
+}
+
+.aspekta-thin {
+  font-family: "Aspekta Thin";
+  font-weight: 300;
+}
+
+.aspekta-reg {
+  font-family: "Aspekta Reg";
+  font-weight: 400;
+}
+
+.aspekta-med {
+  font-family: "Aspekta Med";
+  font-weight: 500;
+}
+
+.aspekta-semi {
+  font-family: "Aspekta Semi";
+  font-weight: 600;
+}
+
+.inter-semi {
+  font-family: "Inter Semi";
+  font-weight: 600;
+}
+
+.common-section {
+  padding: 100px 0;
+}
+
+.common-heading-1 {
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: -0.64px;
+}
+
+.common-heading-2 {
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: -0.88px;
+}
+
+.common-p {
+  margin: 20px 0;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+/* +++++++++++++++ Banner Section +++++++++++++ */
+
+.masterplan-text {
+  width: 57%;
+  margin-left: auto;
+  margin-top: 40px;
+}
+
+.masterplan-text h1 {
+  font-size: 55px;
+  line-height: 1.1;
+  letter-spacing: -0.64px;
+}
+
+.masterplan-text p {
+  width: 85%;
+}
