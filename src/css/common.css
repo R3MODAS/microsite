@@ -30,6 +30,10 @@
 }
 
 /* +++++++++++++++ Common Class +++++++++++++ */
+html,body{
+  overflow-x: hidden;
+}
+
 
 li {
   list-style: none;
@@ -38,9 +42,11 @@ li {
 a {
   display: inline-block !important;
   text-decoration: none;
+  cursor: pointer !important;
 }
 
 button {
+  cursor: pointer !important;
   outline: none;
   border: none;
   background-color: transparent;
