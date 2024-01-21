@@ -34,32 +34,24 @@
     font-family: "Aspekta Thin";
     position: absolute;
     top: -15px;
-    left: -20px;
+    left: -18px;
     font-size: 14px;
 }
 
 .main-item-1 h2::before{
-    content: "01.";
+    content: "01 .";
 }
 
 .main-item-2 h2::before{
-    content: "02.";
+    content: "02 .";
 }
 
 .main-item-3 h2::before{
-    content: "03.";
-    position: absolute;
-    top: -15px;
-    left: -20px;
-    font-size: 14px;
+    content: "03 .";
 }
 
 .main-item-4 h2::before{
-    content: "04.";
-    position: absolute;
-    top: -15px;
-    left: -20px;
-    font-size: 14px;
+    content: "04 .";
 }
 
 .main-item-right img{

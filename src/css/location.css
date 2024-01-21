@@ -1,0 +1,39 @@
+.nearby-container h2{
+    color: #564F45;
+}
+
+.nearby-container h2::before{
+    content: "01.";
+    position: absolute;
+    font-size: 12px;
+    top: -13px;
+    left: -15px;
+}
+
+.site-info{
+    border: 1px solid #564F45;
+    align-items: flex-start;
+    border-radius: 17px;
+    gap: 10px;
+    padding: 35px 25px;
+    width: 80%;
+}
+
+.site-info img{
+    width: 25px;
+}
+
+.site-info p{
+    font-size: 14px;
+}
+
+.site-info a{
+    font-size: 14px;
+    color: #5D5652;
+    text-decoration: underline;
+}
+
+.arrow{
+    margin-left: 5px;
+    width: 13px !important;
+}
