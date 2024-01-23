@@ -14,14 +14,14 @@ const Location = () => {
       {/* Banner */}
       <Banner heading="Our Location" para="Discover Promise of Spring's prime location in Devanahalli, ensuring easy access to essential amenities, educational institutions, healthcare facilities, and prominent landmarks." bannerImg={locationImg} />
 
-      <section id="nearby">
+      <section id="nearby" className="common-section">
         <div className="container">
           <div className="nearby-container">
             <h2 className="common-heading-2 inter-semi position-relative">Nearby Sites</h2>
             <div className="site-container">
               <div className="row">
                 <div className="col-6">
-                  <div className="site-left">
+                  <div className="site-left d-flex flex-column">
                     <div className="site-info d-flex">
                       <img src={plane} alt="plane" className="img-fluid" />
                       <div className="text-color-4">
@@ -54,8 +54,8 @@ const Location = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-6">
-                  <div className="site-right">
+                <div className="col-6 p-0">
+                  <div className="site-right d-flex flex-column">
                     <div className="site-info d-flex">
                       <img src={health} alt="health" className="img-fluid" />
                       <div className="text-color-4">
@@ -83,11 +83,19 @@ const Location = () => {
                         <p className="aspekta-reg text-uppercase m-0">Harrow International School - 20 min</p>
                       </div>
                     </div>
-                    <button className="bg-color-1">VIEW ALL LOCATIONS ON MAP</button>
+                    <button className="bg-color-1 site-btn aspekta-reg">VIEW ALL LOCATIONS ON MAP</button>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="easy-access" className="common-section">
+        <div className="container-fluid">
+          <div className="easy-container">
+
           </div>
         </div>
       </section>

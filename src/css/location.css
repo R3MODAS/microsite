@@ -16,7 +16,12 @@
     border-radius: 17px;
     gap: 10px;
     padding: 35px 25px;
-    width: 80%;
+    width: 100%;
+}
+
+.site-left,
+.site-right{
+    gap: 20px;
 }
 
 .site-info img{
@@ -36,4 +41,22 @@
 .arrow{
     margin-left: 5px;
     width: 13px !important;
+}
+
+.site-btn{
+    height: 50px;
+    width: 100%;
+    color: #F7F8F8;
+    border-radius: 50px;
+}
+
+#easy-access{
+    background: url("../assets/easybanner.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.access-container{
+    top: 0;
+    left: 0;
 }
