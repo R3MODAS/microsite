@@ -5,9 +5,13 @@
 .nearby-container h2::before{
     content: "01.";
     position: absolute;
-    font-size: 12px;
+    font-size: 14px;
     top: -13px;
-    left: -15px;
+    left: -22px;
+}
+
+.site-container{
+    margin-top: 50px;
 }
 
 .site-info{
@@ -50,13 +54,42 @@
     border-radius: 50px;
 }
 
-#easy-access{
-    background: url("../assets/easybanner.png");
-    background-size: cover;
-    height: 100vh;
+.invest-container h2::before{
+    content: "03.";
+    position: absolute;
+    font-size: 14px;
+    top: -13px;
+    left: -22px;
 }
 
-.access-container{
-    top: 0;
+.why-invest h3{
+    margin: 30px 0 25px 0;
+}
+
+.why-invest h3::after{
+    content: "";
+    position: absolute;
     left: 0;
+    bottom: -6px;
+    width: 12%;
+    height: 2px;
+    background-color: #00000033;
+}
+
+.why-invest-ul{
+    color: rgba(148, 143, 135, 0.8);
+}
+
+.why-invest-ul li{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.why-invest-ul li img{
+    width: 20px;
+    margin-right: 13px;
+}
+
+.invest-right img{
+    width: 700px;
 }
