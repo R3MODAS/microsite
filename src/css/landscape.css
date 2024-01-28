@@ -1,0 +1,100 @@
+.brown-bg {
+    bottom: 75px;
+}
+
+.manicured-container {
+    top: -100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.manicured-container ul {
+    margin-top: 50px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 80px;
+}
+
+.manicured-container ul::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(125, 138, 129, 0) 0%, rgba(192, 202, 195, 0.5) 47.92%, rgba(125, 138, 129, 0) 100%);
+}
+
+.manicured-container ul::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(125, 138, 129, 0) 0%, rgba(192, 202, 195, 0.5) 47.92%, rgba(125, 138, 129, 0) 100%);
+}
+
+.manicured-container ul li img{
+    margin-bottom: 10px;
+}
+
+.manicured-container ul li h3{
+    font-size: 20px;
+}
+.manicured-container ul li p{
+    font-size: 16px;
+}
+
+.why-container h2{
+    color: #262522;
+}
+
+.common-items{
+    margin-top: 100px;
+}
+
+.common-item{
+    margin-bottom: 100px;
+}
+
+.common-item-left{
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.common-item-left h3{
+    margin: 20px 0;
+}
+
+.common-item-left p{
+    width: 80%;
+}
+
+.common-item-right img{
+    height: 500px;
+}
+
+.common-effect{
+    z-index: 1;
+}
+
+.common-effect-1{
+    left: -90%;
+    bottom: 0%;
+}
+
+.common-effect-2{
+    right: -80%;
+    bottom: 0;
+}

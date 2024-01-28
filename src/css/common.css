@@ -23,6 +23,16 @@
   src: url("fonts/Inter-SemiBold.ttf");
 }
 
+@font-face {
+  font-family: "Neue Reg";
+  src: url("fonts/NeueMontreal-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Neue Bold";
+  src: url("fonts/NeueMontreal-Bold.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -91,6 +101,14 @@ button {
   color: #89847C;
 }
 
+.text-color-11{
+  color: #C18F8F;
+}
+
+.text-color-12{
+  color: #C0CAC3;
+}
+
 .bg-color-1 {
   background-color: #7B746A;
 }
@@ -150,6 +168,16 @@ button {
 .inter-semi {
   font-family: "Inter Semi";
   font-weight: 600;
+}
+
+.neue-reg{
+  font-family: "Neue Reg";
+  font-weight: 400;
+}
+
+.neue-bold{
+  font-family: "Neue Bold";
+  font-weight: 700;
 }
 
 .common-section {
