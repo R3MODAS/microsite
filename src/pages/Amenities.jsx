@@ -65,12 +65,12 @@ const Amenities = () => {
                     <div className="main-item-left d-flex flex-column">
                       <h2 className="position-relative text-color-3 inter-semi common-heading-1">Basketball Court</h2>
                       <p className="aspekta-reg text-color-10">Shoot some hoops and enjoy friendly matches on our well-maintained basketball court.</p>
-                      <img src={effect} alt="effect" className="img-fluid position-absolute effect effect-1" />
+                      <img src={effect} alt="effect" className="img-fluid position-absolute effect effect-1" loading="lazy"/>
                     </div>
                   </div>
                   <div className="col-6 order-2">
                     <div className="main-item-right">
-                      <img src={basketball} alt="basketball" className="img-fluid d-block position-relative mx-auto" />
+                      <img src={basketball} alt="basketball" className="img-fluid d-block position-relative mx-auto" loading="lazy"/>
                     </div>
                   </div>
                 </div>
@@ -81,12 +81,12 @@ const Amenities = () => {
                     <div className="main-item-left d-flex flex-column">
                       <h2 className="position-relative text-color-3 inter-semi common-heading-1">Chromatography Garden</h2>
                       <p className="aspekta-reg text-color-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                      <img src={effect2} alt="effect" className="img-fluid position-absolute effect effect-2" />
+                      <img src={effect2} alt="effect" className="img-fluid position-absolute effect effect-2" loading="lazy"/>
                     </div>
                   </div>
                   <div className="col-6 order-1">
                     <div className="main-item-right">
-                      <img src={garden} alt="garden" className="img-fluid d-block position-relative mx-auto" />
+                      <img src={garden} alt="garden" className="img-fluid d-block position-relative mx-auto" loading="lazy"/>
                     </div>
                   </div>
                 </div>
@@ -97,12 +97,12 @@ const Amenities = () => {
                     <div className="main-item-left d-flex flex-column">
                       <h2 className="position-relative text-color-3 inter-semi common-heading-1">Pet Park</h2>
                       <p className="aspekta-reg text-color-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                      <img src={effect} alt="effect" className="img-fluid position-absolute effect effect-1" />
+                      <img src={effect} alt="effect" className="img-fluid position-absolute effect effect-1" loading="lazy"/>
                     </div>
                   </div>
                   <div className="col-6 order-2">
                     <div className="main-item-right">
-                      <img src={petpark} alt="petpark" className="img-fluid d-block position-relative mx-auto" />
+                      <img src={petpark} alt="petpark" className="img-fluid d-block position-relative mx-auto" loading="lazy"/>
                     </div>
                   </div>
                 </div>
@@ -113,12 +113,12 @@ const Amenities = () => {
                     <div className="main-item-left d-flex flex-column">
                       <h2 className="position-relative text-color-3 inter-semi common-heading-1">The Miyawaki Forest</h2>
                       <p className="aspekta-reg text-color-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                      <img src={effect2} alt="effect" className="img-fluid position-absolute effect effect-2" />
+                      <img src={effect2} alt="effect" className="img-fluid position-absolute effect effect-2" loading="lazy"/>
                     </div>
                   </div>
                   <div className="col-6 order-1">
                     <div className="main-item-right">
-                      <img src={forest} alt="forest" className="img-fluid d-block position-relative mx-auto" />
+                      <img src={forest} alt="forest" className="img-fluid d-block position-relative mx-auto" loading="lazy"/>
                     </div>
                   </div>
                 </div>

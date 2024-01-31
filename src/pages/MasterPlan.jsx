@@ -1,3 +1,4 @@
+import Banner from "../components/Banner"
 import { entryPointsOne, entryPointsTwo, plots } from "../utils/constants"
 import masterplan from "../assets/masterplan.png"
 import structure from "../assets/structure.png"
@@ -13,15 +14,14 @@ import drip from "../assets/drip.svg"
 import energy from "../assets/energy.svg"
 import walkway from "../assets/walkway.svg"
 import "../css/masterplan.css"
-import Banner from "../components/Banner"
 
 const MasterPlan = () => {
   return (
     <>
       {/* Banner */}
-      <Banner heading="Our Masterplan" para="Experience a new standard of living with our meticulously crafted community, blending lush green spaces and innovative design for unparalleled modern living." bannerImg = {masterplan} />
+      <Banner heading="Our Masterplan" para="Experience a new standard of living with our meticulously crafted community, blending lush green spaces and innovative design for unparalleled modern living." bannerImg={masterplan} />
 
-      {/* structure */}
+      {/* Structure */}
       <section id="masterplan" className="common-section">
         <div className="container">
           <div className="structure position-relative">
@@ -78,7 +78,7 @@ const MasterPlan = () => {
         </div>
       </section>
 
-      {/* plot configaration */}
+      {/* Plot Configuration */}
       <section id="plot" className="position-relative">
         <img src={plotbg} alt="img" className="img-fluid" />
         <div className="plot-configuration position-absolute">
@@ -136,8 +136,8 @@ const MasterPlan = () => {
         </div>
       </section>
 
-      {/* road design */}
-      <section id="design" className="common-section position-relative">
+      {/* Road Design */}
+      <section id="design" className="position-relative">
         <div className="container">
           <div className="design-container">
             <h2 className="common-heading-1 inter-semi text-color-3">Road Design</h2>
@@ -172,7 +172,7 @@ const MasterPlan = () => {
             </div>
 
             <div className="plot-info-container">
-              <ul className="plot-info m-0 px-0 pb-3">
+              <ul className="plot-info m-0 px-0">
                 <li>
                   <div className="plot-info-img bg-color-4">
                     <img src={plotentry} alt="plot-entry" className="img-fluid small-img" />
@@ -201,7 +201,7 @@ const MasterPlan = () => {
                   </div>
                 </li>
               </ul>
-              <ul className="plot-info m-0 px-0 pt-4 pb-3">
+              <ul className="plot-info m-0 px-0">
                 <li>
                   <div className="plot-info-img bg-color-7">
                     <img src={walkway} alt="plot-entry" className="img-fluid small-img" />

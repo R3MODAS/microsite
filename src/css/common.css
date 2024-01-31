@@ -40,7 +40,8 @@
 }
 
 /* +++++++++++++++ Common Class +++++++++++++ */
-html,body{
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -97,15 +98,15 @@ button {
   color: rgba(248, 248, 248, 0.4);
 }
 
-.text-color-10{
+.text-color-10 {
   color: #89847C;
 }
 
-.text-color-11{
+.text-color-11 {
   color: #C18F8F;
 }
 
-.text-color-12{
+.text-color-12 {
   color: #C0CAC3;
 }
 
@@ -145,6 +146,10 @@ button {
   background-color: #8787A9;
 }
 
+.bg-color-10{
+  background-color: #B57878;
+}
+
 .aspekta-thin {
   font-family: "Aspekta Thin";
   font-weight: 300;
@@ -170,12 +175,12 @@ button {
   font-weight: 600;
 }
 
-.neue-reg{
+.neue-reg {
   font-family: "Neue Reg";
   font-weight: 400;
 }
 
-.neue-bold{
+.neue-bold {
   font-family: "Neue Bold";
   font-weight: 700;
 }

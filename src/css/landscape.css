@@ -1,5 +1,5 @@
 .brown-bg {
-    bottom: 75px;
+    bottom: 82px;
 }
 
 .manicured-container {
@@ -22,7 +22,7 @@
     gap: 80px;
 }
 
-.manicured-container ul::before{
+.manicured-container ul::before {
     content: "";
     position: absolute;
     left: 0;
@@ -32,7 +32,7 @@
     background: linear-gradient(90deg, rgba(125, 138, 129, 0) 0%, rgba(192, 202, 195, 0.5) 47.92%, rgba(125, 138, 129, 0) 100%);
 }
 
-.manicured-container ul::after{
+.manicured-container ul::after {
     content: "";
     position: absolute;
     left: 0;
@@ -42,59 +42,219 @@
     background: linear-gradient(90deg, rgba(125, 138, 129, 0) 0%, rgba(192, 202, 195, 0.5) 47.92%, rgba(125, 138, 129, 0) 100%);
 }
 
-.manicured-container ul li img{
+.manicured-container ul li img {
     margin-bottom: 10px;
 }
 
-.manicured-container ul li h3{
+.manicured-container ul li h3 {
     font-size: 20px;
 }
-.manicured-container ul li p{
+
+.manicured-container ul li p {
     font-size: 16px;
 }
 
-.why-container h2{
+.why-container h2 {
     color: #262522;
 }
 
-.common-items{
+.common-items {
     margin-top: 100px;
 }
 
-.common-item{
+.common-item {
     margin-bottom: 100px;
 }
 
-.common-item-left{
-    width: 70%;
-    margin: auto;
+.common-item-left {
     height: 100%;
     justify-content: center;
     align-items: center;
 }
 
-.common-item-left h3{
+.common-item-left h3 {
     margin: 20px 0;
 }
 
-.common-item-left p{
-    width: 80%;
+.common-item-left p {
+    width: 60%;
 }
 
-.common-item-right img{
+.common-item-right img {
     height: 500px;
 }
 
-.common-effect{
+.common-effect-1 {
+    left: -50%;
+    bottom: 0;
     z-index: 1;
 }
 
-.common-effect-1{
-    left: -90%;
-    bottom: 0%;
-}
-
-.common-effect-2{
+.common-effect-2 {
     right: -80%;
     bottom: 0;
+    z-index: 1;
+}
+
+.easy-container {
+    position: absolute;
+    top: 20%;
+    left: 9%;
+}
+
+.easy-container h2::before {
+    content: "02 .";
+    position: absolute;
+    font-family: "Aspekta Thin";
+    font-size: 14px;
+    top: -13px;
+    left: -22px;
+}
+
+.big-desc {
+    padding-top: 10px;
+    width: 40%;
+}
+
+.small-desc {
+    margin-top: 80px;
+    color: rgba(255, 255, 255, 0.302);
+    width: 16%;
+}
+
+.car-tree-img {
+    z-index: 2;
+    bottom: 10%;
+}
+
+/* ++++++++++++++ Road Design ++++++++++++++ */
+.design-container {
+    padding: 50px 0 80px 0;
+}
+
+.design-container h2::before {
+    content: "03 .";
+    position: absolute;
+    font-family: "Aspekta Thin";
+    font-size: 14px;
+    top: -13px;
+    left: -22px;
+}
+
+.road-length-container {
+    padding-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.road-info {
+    width: 550px;
+    height: 300px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.00) 100%);
+    backdrop-filter: blur(38px);
+    padding: 40px;
+}
+
+.road-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.road-top img {
+    height: 70px;
+}
+
+.road-top h3 {
+    font-size: 30px;
+    position: relative;
+}
+
+.road-top h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.20);
+    height: 1px;
+}
+
+.road-mid {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 5px;
+}
+
+.road-mid img {
+    width: 22px;
+}
+
+.road-mid h4 {
+    font-size: 14px;
+}
+
+.road-bottom p {
+    padding-left: 50px;
+    width: 80%;
+    font-size: 14px;
+}
+
+.plot-info-container {
+    margin-top: 70px;
+}
+
+.plot-info:nth-child(1) {
+    padding: 30px 0 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.plot-info:nth-child(2) {
+    padding: 30px 0;
+}
+
+.plot-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.plot-info li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.plot-info-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.plot-info-img img.small-img {
+    width: 20px;
+}
+
+.plot-info-img img {
+    width: 25px;
+}
+
+.plot-info-text {
+    padding-top: 15px;
+}
+
+.plot-info-text p {
+    font-size: 14px;
+    width: 240px;
+    line-height: 1.3;
 }

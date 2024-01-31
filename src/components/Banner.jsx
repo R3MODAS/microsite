@@ -11,7 +11,7 @@ const Banner = (props) => {
                 </div>
             </div>
             <div className="container-fluid p-0">
-                <img src={bannerImg} alt="img" className="img-fluid" />
+                <img src={bannerImg} alt="img" className="img-fluid" loading="lazy" />
             </div>
         </section>
     )

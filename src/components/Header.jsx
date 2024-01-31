@@ -9,7 +9,7 @@ const Header = () => {
     <nav id="navbar" className="container-fluid">
 
         <div className="logo">
-            <img src={Logo} alt="logo" />
+            <img src={Logo} alt="logo" loading="lazy"/>
         </div>
 
         <ul className="nav-item-container">
@@ -25,13 +25,13 @@ const Header = () => {
         <div className="nav-buttons">
             <div>
                 <button className="enquire-btn bg-color-1 text-color-2 inter-semi text-uppercase">
-                    <img src={Call} alt="call" />
+                    <img src={Call} alt="call" loading="lazy"/>
                     <span>Enquire Now</span>
                 </button>
             </div>
 
             <div className="ham-menu">
-                <img src={HamMenu} alt="ham-menu" />
+                <img src={HamMenu} alt="ham-menu" loading="lazy"/>
             </div>
         </div>
     </nav>

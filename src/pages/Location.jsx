@@ -25,14 +25,14 @@ const Location = () => {
                 <div className="col-6">
                   <div className="site-left d-flex flex-column">
                     <div className="site-info d-flex">
-                      <img src={plane} alt="plane" className="img-fluid" />
+                      <img src={plane} alt="plane" className="img-fluid" loading="lazy"/>
                       <div className="text-color-4">
                         <h3 className="inter-semi common-heading-1">Airport / 21 MIN</h3>
                         <p className="aspekta-reg text-uppercase m-0">Kempegowda International Airport - 21 min</p>
                       </div>
                     </div>
                     <div className="site-info d-flex">
-                      <img src={it} alt="it" className="img-fluid" />
+                      <img src={it} alt="it" className="img-fluid" loading="lazy"/>
                       <div className="text-color-4">
                         <h3 className="inter-semi common-heading-1">IT & Business Hub / 25 MIN</h3>
                         <p className="aspekta-reg text-uppercase m-0">Ecopolis IT Park - 27 min</p>
@@ -43,7 +43,7 @@ const Location = () => {
                       </div>
                     </div>
                     <div className="site-info d-flex">
-                      <img src={retail} alt="retail" className="img-fluid" />
+                      <img src={retail} alt="retail" className="img-fluid" loading="lazy"/>
                       <div className="text-color-4">
                         <h3 className="inter-semi common-heading-1">Retail & Recreation / 15 MIN</h3>
                         <p className="aspekta-reg text-uppercase m-0" >Rigan Restobar - 5 min</p>
@@ -59,12 +59,12 @@ const Location = () => {
                 <div className="col-6">
                   <div className="site-right d-flex flex-column">
                     <div className="site-info d-flex">
-                      <img src={health} alt="health" className="img-fluid" />
+                      <img src={health} alt="health" className="img-fluid" loading="lazy"/>
                       <div className="text-color-4">
                         <h3 className="inter-semi common-heading-1">Healthcare / 5 MIN</h3>
                         <p className="aspekta-reg text-uppercase m-0" >Akash Hospital - 15 min</p>
                         <a href="#" className="aspekta-reg text-uppercase m-0">Bangalore Baptist Hospital - 12 min
-                          <img src={arrow} alt="arrow" className="arrow img-fluid" />
+                          <img src={arrow} alt="arrow" className="arrow img-fluid" loading="lazy"/>
                         </a>
                         <p className="aspekta-reg text-uppercase m-0">
                           Omega Multispecialty Hospital - 35 min
@@ -73,7 +73,7 @@ const Location = () => {
                       </div>
                     </div>
                     <div className="site-info d-flex">
-                      <img src={school} alt="school" className="img-fluid" />
+                      <img src={school} alt="school" className="img-fluid" loading="lazy"/>
                       <div className="text-color-4">
                         <h3 className="inter-semi common-heading-1">School / 10 MIN</h3>
                         <p className="aspekta-reg text-uppercase m-0" >EuroKids Pre-School - 10 min</p>
@@ -95,7 +95,7 @@ const Location = () => {
       </section>
 
       <section id="easy-access" className="common-section">
-        <img src={easyBanner} alt="bg-img" className="img-fluid" />
+        <img src={easyBanner} alt="bg-img" className="img-fluid" loading="lazy"/>
       </section>
 
       <section id="invest" className="common-section">
@@ -110,23 +110,23 @@ const Location = () => {
                     <h3 className="common-heading-2 aspekta-aspekta-semi text-color-7 position-relative">Current Infrastructure</h3>
                     <ul className="m-0 p-0 why-invest-ul aspekta-reg">
                       <li>
-                        <img src={plane} alt="plane" className="img-fluid" />
+                        <img src={plane} alt="plane" className="img-fluid" loading="lazy"/>
                         <span>Kempegowda International Airport</span>
                       </li>
                       <li>
-                        <img src={it} alt="it" className="img-fluid" />
+                        <img src={it} alt="it" className="img-fluid" loading="lazy"/>
                         <span>7+ IT Parks</span>
                       </li>
                       <li>
-                        <img src={health} alt="health" className="img-fluid" />
+                        <img src={health} alt="health" className="img-fluid" loading="lazy"/>
                         <span>5+ Recognized Hospitals</span>
                       </li>
                       <li>
-                        <img src={retail} alt="retail" className="img-fluid" />
+                        <img src={retail} alt="retail" className="img-fluid" loading="lazy"/>
                         <span>12+ Retail & Recreation Centres</span>
                       </li>
                       <li>
-                        <img src={school} alt="school" className="img-fluid" />
+                        <img src={school} alt="school" className="img-fluid" loading="lazy"/>
                         <span>10+ Educational Institutions</span>
                       </li>
                     </ul>
@@ -134,31 +134,31 @@ const Location = () => {
                     <h3 className="common-heading-2 aspekta-aspekta-semi text-color-7 position-relative">Future Development</h3>
                     <ul className="m-0 p-0 why-invest-ul aspekta-reg">
                       <li>
-                        <img src={it} alt="it" className="img-fluid" />
+                        <img src={it} alt="it" className="img-fluid" loading="lazy"/>
                         <span>Devanahalli Business Park (408 acres)</span>
                       </li>
                       <li>
-                        <img src={health} alt="health" className="img-fluid" />
+                        <img src={health} alt="health" className="img-fluid" loading="lazy"/>
                         <span>KIADB Aerospace Park</span>
                       </li>
                       <li>
-                        <img src={it} alt="it" className="img-fluid" />
+                        <img src={it} alt="it" className="img-fluid" loading="lazy"/>
                         <span>IFCI Financial District</span>
                       </li>
                       <li>
-                        <img src={it} alt="it" className="img-fluid" />
+                        <img src={it} alt="it" className="img-fluid" loading="lazy"/>
                         <span>BIAL IT Investment Region (120,000 acres)</span>
                       </li>
                       <li>
-                        <img src={retail} alt="retail" className="img-fluid" />
+                        <img src={retail} alt="retail" className="img-fluid" loading="lazy"/>
                         <span>Bellary Road Expansion (6 to 8 lanes)</span>
                       </li>
                       <li>
-                        <img src={plane} alt="plane" className="img-fluid" />
+                        <img src={plane} alt="plane" className="img-fluid" loading="lazy"/>
                         <span>KIA Infrastructural Upgrade</span>
                       </li>
                       <li>
-                        <img src={health} alt="health" className="img-fluid" />
+                        <img src={health} alt="health" className="img-fluid" loading="lazy"/>
                         <span>Nano Park</span>
                       </li>
                     </ul>
@@ -167,7 +167,7 @@ const Location = () => {
               </div>
               <div className="col-8">
                 <div className="invest-right">
-                  <img src={nearby} alt="nearby-img" className="img-fluid" />
+                  <img src={nearby} alt="nearby-img" className="img-fluid" loading="lazy"/>
                 </div>
               </div>
             </div>
